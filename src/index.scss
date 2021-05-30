@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+// font-family: 'Righteous', cursive;
+// font-family: 'Roboto Slab', serif;
+@import './styles/shared';
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: $clr-green-blue;
+  color: $clr-ivory;
+  font-family: 'Roboto Slab', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Righteous', cursive;
+}
+
+h1 {
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+h2 {
+  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+}
+h3 {
+  font-size: clamp(1.6rem, 2.3vw, 2.5rem);
+}
+h4 {
+  font-size: clamp(1.3rem, 2vw, 2.2rem);
+}
+h5 {
+  font-size: clamp(1.1rem, 1.5vw, 2rem);
+}
